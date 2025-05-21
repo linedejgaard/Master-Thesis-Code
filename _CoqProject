@@ -1,0 +1,14 @@
+-Q . VC
+kalloc.v
+clientsfun.v
+tactics.v
+kallocfun.v
+ASI_kalloc.v
+Kalloc_APD.v
+Spec_kalloc.v
+Verif_kalloc_kfree.v
+Verif_kfree_loops_examples.v
+Verif_allocation_examples.v
+Verif_kalloc_kfree_examples.v
+
+-arg -w -arg -notation-incompatible-prefix

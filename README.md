@@ -74,9 +74,9 @@ All code, specifications, and proofs were developed using **VST** within the **R
 
 - In this directory, use `make clean` to clean the project, and `make` to compile the Rocq files.
 
-- Edit the `ALLVFILES` line in the `Makefile` to compile fewer or more files. Note that some files depend on each other.
+- Edit the `_CoqProject` file to compile fewer files. Note that some files depend on each other.
 
-- When compiling, yields warnings which can be safely ignored
+- When compiling, yields warnings which can be safely ignored.
 
 ## Dependencies
 
