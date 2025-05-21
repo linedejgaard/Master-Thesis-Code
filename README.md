@@ -10,7 +10,7 @@ This project formally verifies the kernel memory management functions `kalloc` a
 
 All code, specifications, and proofs were developed using **VST** within the **Rocq interactive proof environment**. The project contains approximately **3,370 lines of code**, distributed as follows:
 
----
+
 
 ### Implementation & Formal Representation
 
@@ -19,7 +19,7 @@ All code, specifications, and proofs were developed using **VST** within the **R
 | `kalloc.c`   | C source code for the kernel memory manager   | ~180  |
 | `kalloc.v`   | Rocq formalization of `kalloc.c`              | ~845  |
 
----
+
 
 ### Specifications
 
@@ -28,7 +28,7 @@ All code, specifications, and proofs were developed using **VST** within the **R
 | `ASI_kalloc.v`   | Abstract specification interface (API-level)     | ~85   |
 | `Spec_kalloc.v`  | Detailed subspecifications of `kalloc` behavior  | ~195  |
 
----
+
 
 ### Proofs
 
@@ -39,7 +39,7 @@ All code, specifications, and proofs were developed using **VST** within the **R
 | `Verif_kalloc_kfree_examples.v` | Client proofs using both `kalloc` and `kfree`          | ~845  |
 | `Verif_kfree_loops_examples.v` | Proofs for clients with deallocation loops              | ~380  |
 
----
+
 
 ### Functional Models
 
@@ -48,7 +48,7 @@ All code, specifications, and proofs were developed using **VST** within the **R
 | `kallocfun.v`     | Functional model of the memory manager       | ~190  |
 | `clientsfun.v`    | Functional model of client interactions      | ~260  |
 
----
+
 
 ### Abstract Predicate Declarations
 
@@ -56,7 +56,7 @@ All code, specifications, and proofs were developed using **VST** within the **R
 |----------------|------------------------------------------|-------|
 | `Kalloc_APD.v` | Abstract predicate declarations used in the specifications | ~55   |
 
----
+
 
 ### Supporting Files
 
