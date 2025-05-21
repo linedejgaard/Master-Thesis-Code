@@ -62,6 +62,9 @@ Thumbs.db
 /dist/
 /build/
 
-my_first_proof.v
+.lia.cache
+
+Makefile.coq
+Makefile.coq.conf
 
 .DS_Store
