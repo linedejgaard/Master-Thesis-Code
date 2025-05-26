@@ -85,7 +85,7 @@ Definition kalloc_int_array_spec_fail : ident * funspec :=
     DECLARE _kalloc_int_array
     WITH sh : share, orig_head:val, xx:Z, ls:list val, gv:globals, n:Z
     PRE [ tint ] 
-    PROP () (* make sure an array of size n fits into the page *)
+    PROP () (* doesn't make sure an array of size n fits into the page *)
     PARAMS(Vint (Int.repr n)) GLOBALS(gv) 
     SEP (KAF_globals gv sh ls xx orig_head)
     POST [ tptr tint ]

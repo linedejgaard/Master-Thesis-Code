@@ -55,7 +55,7 @@ Ltac kalloc_token_data_at_valid_pointer :=
    end
  end.
 
-(** Tell coq to apply the Ltac automatically *)
+(** Tell rocq to apply the Ltac automatically *)
 #[export] Hint Extern 1 (type_kalloc_token _ _ _ _ |-- valid_pointer _) =>
   (simple apply type_kalloc_token_valid_pointer; data_at_valid_aux) : valid_pointer.
 #[export] Hint Extern 4 (_ |-- valid_pointer _) => kalloc_token_data_at_valid_pointer : valid_pointer.
