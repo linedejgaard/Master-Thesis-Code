@@ -77,8 +77,6 @@ All code, specifications, and proofs were developed using **VST** within the **R
 
 - Edit the `_CoqProject` file to compile fewer files. Note that some files depend on each other.
 
-- When compiling, yields warnings which can be safely ignored.
-
 ## Dependencies
 
 To build and work with this project, you will need the following tools:
