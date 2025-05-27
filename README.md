@@ -9,7 +9,7 @@ Moreover, simplified implementations of `kalloc` and `kfree` are verified agains
 
 ## Project structure
 
-All code, specifications, and proofs were developed using **VST** within the **Rocq interactive proof environment**. The project contains approximately **3,370 lines of code**, distributed as follows:
+All code, specifications, and proofs were developed using **VST** within the **Rocq interactive proof environment**. The project contains approximately **2,525 lines of code**, distributed as follows:
 
 
 
