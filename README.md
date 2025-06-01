@@ -3,9 +3,11 @@
 
 
 
-This project formally specifies the behavior of the kernel memory management functions `kalloc` and `kfree` from the xv6 operating system using the Verified Software Toolchain (VST) within the Rocq environment. It provides two layers of specifications: an abstract layer for simplified C implementations, and a type-enriched specification layer for verifying client functions that use the memory manager.
+This project formally specifies the behavior of the kernel memory management functions `kalloc` and `kfree` from the xv6 operating system using the Verified Software Toolchain (VST) within the Rocq environment. It provides two layers of specifications: an abstract layer for simplified C implementations, and a type-based specification layer for verifying client functions that use the memory manager.
 
 Moreover, simplified implementations of `kalloc` and `kfree` are verified against the abstract specification, and many client functions calling `kalloc` and `kfree` are verified using the type-based specifications to examine their applicability.
+
+The original xv6 implementation can be found here: https://github.com/mit-pdos/xv6-riscv/blob/riscv/kernel/kalloc.c.
 
 ## Project structure
 
