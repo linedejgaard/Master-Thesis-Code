@@ -10,7 +10,7 @@
 Require Import VST.floyd.proofauto.
 Require Import VC.ASI_kalloc.
 Require Import VC.kallocfun.
-Require Import VC.kalloc.
+Require Import VC.kalloc. (* imported for connecting the function to the specification *)
 
 
 Global Open Scope funspec_scope.
@@ -30,7 +30,6 @@ Proof.
   intros. 
   unfold type_kalloc_token. entailer!.
 Qed.
-
 
 (**
   Automates the proof by trying to prove a goal of the form:
